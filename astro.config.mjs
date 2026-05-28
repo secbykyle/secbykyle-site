@@ -3,6 +3,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   site: 'https://secbykyle.com',
+  base: '/',
   vite: {
     plugins: [tailwindcss()]
   }
